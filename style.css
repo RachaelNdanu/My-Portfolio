@@ -38,7 +38,7 @@ section {
 .about,
 .services,
 .skills,
-.teams,
+.socials,
 .contact,
 footer {
   font-family: "Poppins", sans-serif;
@@ -267,16 +267,16 @@ section .title::after {
 
 /* services section styling */
 .services,
-.teams {
+.socials {
   color: #fff;
   background: #111;
 }
 .services .title::before,
-.teams .title::before {
+.socials .title::before {
   background: #fff;
 }
 .services .title::after,
-.teams .title::after {
+.socials .title::after {
   background: #111;
   content: "what i provide";
 }
@@ -462,11 +462,11 @@ section .title::after {
   margin: 10px 0;
 }
 
-/* teams section styling */
-.teams .title::after {
-  content: "who with me";
+/* socials section styling */
+.socials .title::after {
+  content: "social-media";
 }
-.teams .carousel .card {
+.socials .carousel .card {
   background: #222;
   border-radius: 6px;
   padding: 25px 35px;
@@ -474,25 +474,26 @@ section .title::after {
   overflow: hidden;
   transition: all 0.3s ease;
 }
-.teams .carousel .card:hover {
+.socials .carousel .card:hover {
   background: crimson;
 }
-.teams .carousel .card .box {
+.socials .carousel .card .box {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
 }
-.teams .carousel .card:hover .box {
+.socials .carousel .card:hover .box {
   transform: scale(1.05);
 }
-.teams .carousel .card .text {
+.socials .carousel .card .text {
   font-size: 25px;
   font-weight: 500;
   margin: 10px 0 7px 0;
+  color: white;
 }
-.teams .carousel .card img {
+.socials .carousel .card img {
   height: 150px;
   width: 150px;
   object-fit: cover;
@@ -500,7 +501,7 @@ section .title::after {
   border: 5px solid crimson;
   transition: all 0.3s ease;
 }
-.teams .carousel .card:hover img {
+.socials .carousel .card:hover img {
   border-color: #fff;
 }
 .owl-dots {
