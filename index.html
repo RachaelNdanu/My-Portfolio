@@ -27,12 +27,13 @@
     <div class="scroll-up-btn">
       <i class="fas fa-angle-up"></i>
     </div>
+    <!-- Navbar -->
     <nav class="navbar">
       <div class="max-width">
         <div class="logo">
-          <a href="#" title="home" class="name"> 
-             <span class="portfolio"></span>
-         </a>
+          <a href="#" title="home" class="name">
+            <span class="portfolio"></span>
+          </a>
         </div>
         <ul class="menu">
           <li><a href="#home" class="menu-btn">Home</a></li>
@@ -40,7 +41,6 @@
           <li><a href="#services" class="menu-btn">Services</a></li>
           <li><a href="#skills" class="menu-btn">Skills</a></li>
           <li><a href="#projects" class="menu-btn">Projects</a></li>
-          <li><a href="#socials" class="menu-btn">Socials</a></li>
           <li><a href="#contact" class="menu-btn">Contact</a></li>
         </ul>
         <div class="menu-btn">
@@ -161,7 +161,7 @@
               challenges with innovative approaches and deliver impactful
               results.
             </p>
-            <a href="#">Read more</a>
+            <!-- <a href="#">Read more</a> -->
           </div>
           <div class="column right">
             <div class="bars">
@@ -176,21 +176,21 @@
                 <span>JavaScript</span>
                 <span>60%</span>
               </div>
-              <div class="line css"></div>
+              <div class="line js"></div>
             </div>
             <div class="bars">
               <div class="info">
                 <span>Python</span>
                 <span>80%</span>
               </div>
-              <div class="line js"></div>
+              <div class="line python"></div>
             </div>
             <div class="bars">
               <div class="info">
                 <span>Linux</span>
                 <span>50%</span>
               </div>
-              <div class="line php"></div>
+              <div class="line linux"></div>
             </div>
             <div class="bars">
               <div class="info">
@@ -239,80 +239,20 @@
               </p>
             </div>
           </div>
+          <div class="card">
+            <div class="box">
+              <img src="images/project-1.jpg" alt="" />
+              <div class="text">Project 4</div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                quia sunt, quasi quo illo enim.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
     <!-- Projects section end -->
-
-    <!-- socials section start -->
-    <section class="socials" id="socials">
-      <div class="max-width">
-        <h2 class="title">My Socials</h2>
-        <div class="carousel owl-carousel">
-          <div class="card">
-            <a
-              href="https://github.com/RachaelNdanu"
-              target="_blank"
-              rel="noopener"
-            >
-              <div class="box">
-                <img src="/images/github.svg" alt="github logo" />
-                <div class="text">Github</div>
-                <!--<p>Explore my projects and contributions on GitHub, showcasing my skills in DevOps and Web Development.</p> -->
-              </div>
-            </a>
-          </div>
-          <div class="card">
-            <a
-              href="https://www.linkedin.com/in/rachael-ndanu-959402276/"
-              target="_blank"
-              rel="noopener"
-            >
-              <div class="box">
-                <img src="/images/linkedin.jpg" alt="" />
-                <div class="text">linkedIn</div>
-                <!--<p>Explore my projects and contributions on GitHub, showcasing my skills in DevOps and Web Development.</p> -->
-              </div>
-            </a>
-          </div>
-          <div class="card">
-            <a href="https://x.com/NNdanuh" target="_blank" rel="noopener">
-              <div class="box">
-                <img src="/images/" alt="" />
-                <div class="text">Twitter</div>
-                <!--<p>Explore my projects and contributions on GitHub, showcasing my skills in DevOps and Web Development.</p> -->
-              </div>
-            </a>
-          </div>
-          <div class="card">
-            <a
-              href="https://www.facebook.com/raquelshens.addikartel?mibextid=ZbWKwL"
-              target="_blank"
-              rel="noopener"
-            >
-              <div class="box">
-                <img src="/images/facebook.jpg" alt="" />
-                <div class="text">Facebook</div>
-                <!--<p>Explore my projects and contributions on GitHub, showcasing my skills in DevOps and Web Development.</p> -->
-              </div>
-            </a>
-          </div>
-          <div class="card">
-            <a
-              href="https://www.instagram.com/_ndanuh/"
-              target="_blank"
-              rel="noopener"
-            >
-              <div class="box">
-                <img src="images/instagram.jpg" alt="" />
-                <div class="text">Instagram</div>
-                <!--<p>Explore my projects and contributions on GitHub, showcasing my skills in DevOps and Web Development.</p> -->
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <!-- contact section start -->
     <section class="contact" id="contact">
@@ -347,14 +287,18 @@
                 <i class="fas fa-envelope"></i>
                 <div class="info">
                   <div class="head">Email</div>
-                  <div class="sub-title">rndanu102@gmail.com</div>
+                  <a class="sub-title" href="mailto:rndanu102@gmail.com"
+                    >rndanu102@gmail.com</a
+                  >
                 </div>
               </div>
               <div class="row">
                 <i class="fas fa-phone"></i>
                 <div class="info">
                   <div class="head">Tel no</div>
-                  <div class="sub-title">+254705632731</div>
+                  <a class="sub-title" href="tel:+254705632731"
+                    >+254705632731</a
+                  >
                 </div>
               </div>
             </div>
@@ -386,6 +330,41 @@
               </div>
             </form>
           </div>
+        </div>
+        <div class="wrapper">
+          <a
+            class="button"
+            href="https://www.facebook.com/raquelshens.addikartel?mibextid=ZbWKwL"
+          >
+            <div class="icon">
+              <i class="fab fa-facebook-f"></i>
+            </div>
+            <span>Facebook</span>
+          </a>
+          <a class="button" href="https://www.instagram.com/_ndanuh/">
+            <div class="icon">
+              <i class="fab fa-instagram"></i>
+            </div>
+            <span>Instagram</span>
+          </a>
+          <a class="button" href="https://github.com/RachaelNdanu">
+            <div class="icon">
+              <i class="fab fa-github"></i>
+            </div>
+            <span>GitHub</span>
+          </a>
+          <a class="button" href="https://x.com/NNdanuh">
+            <div class="icon">
+              <i class="fab fa-twitter"></i>
+            </div>
+            <span>Twitter</span>
+          </a>
+          <a class="button" href="https://www.linkedin.com/in/rachael-ndanu/">
+            <div class="icon">
+              <i class="fab fa-linkedin"></i>
+            </div>
+            <span>LinkedIn</span>
+          </a>
         </div>
       </div>
     </section>

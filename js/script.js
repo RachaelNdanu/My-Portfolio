@@ -48,9 +48,10 @@ $(document).ready(function () {
     loop: true,
   });
   var typed = new Typed(".portfolio", {
-    strings: ['Rachael <span>Ndanu</span>', "My Portfo<span>lio</span>"],
-    typeSpeed: 100,
-    backSpeed: 60,
+    strings: ['Rachael<span>Ndanu</span>', "My Portfo<span>lio</span>"],
+    typeSpeed: 0,
+    backSpeed: 100,
+    // fadeOut: true,
     loop: true,
     showCursor: false,
   });
