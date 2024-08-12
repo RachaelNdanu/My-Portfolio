@@ -118,9 +118,8 @@ section .title {
         }
       }
     }
-
     .menu li a:hover {
-      color: $white-color;
+      color: $secondary-color;
     }
   }
   .max-width {
@@ -241,21 +240,23 @@ section .title {
 
 /* Home Section */
 .home {
-  .home-content a {
-    display: inline-block;
-    background: $primary-color;
-    color: $white-color;
-    font-size: 25px;
-    padding: 12px 36px;
-    margin-top: 20px;
-    font-weight: 400;
-    border-radius: 6px;
-    border: 3px solid $primary-color;
-    transition: all 0.3s ease;
-    &:hover {
+  .home-content {
+    a {
+      display: inline-block;
+      background: $primary-color;
       color: $white-color;
+      font-size: 25px;
+      padding: 12px 36px;
+      margin-top: 20px;
+      font-weight: 400;
+      border-radius: 6px;
       border: 3px solid $primary-color;
-      background: rgba(220, 20, 60, 0.24);
+      transition: all 0.3s ease;
+      &:hover {
+        color: $white-color;
+        border: 3px solid $primary-color;
+        background: rgba(220, 20, 60, 0.24);
+      }
     }
   }
 }
@@ -627,6 +628,11 @@ section .title {
         line-height: 60px;
         transition: all 0.3s ease;
       }
+      svg {
+        line-height: 60px;
+        transition: all 0.3s ease;
+        color: green;
+      }
     }
 
     // facebook
@@ -686,6 +692,18 @@ section .title {
         }
         span {
           color: #0077b5;
+        }
+      }
+    }
+    //linktree
+    &:nth-child(6) {
+      color: #39e09b;
+      &:hover {
+        .icon {
+          background: #39e09b;
+        }
+        span {
+          color: #39e09b;
         }
       }
     }

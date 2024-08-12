@@ -114,7 +114,7 @@ section .title::after {
   color: #111111;
 }
 .navbar.sticky .menu li a:hover {
-  color: #fff;
+  color: #111;
 }
 .navbar .max-width {
   display: flex;
@@ -623,6 +623,11 @@ section .title::after {
   line-height: 60px;
   transition: all 0.3s ease;
 }
+.wrapper .button .icon svg {
+  line-height: 60px;
+  transition: all 0.3s ease;
+  color: green;
+}
 .wrapper .button:nth-child(1) {
   color: #4267b2;
 }
@@ -667,6 +672,15 @@ section .title::after {
 }
 .wrapper .button:nth-child(5):hover span {
   color: #0077b5;
+}
+.wrapper .button:nth-child(6) {
+  color: #39e09b;
+}
+.wrapper .button:nth-child(6):hover .icon {
+  background: #39e09b;
+}
+.wrapper .button:nth-child(6):hover span {
+  color: #39e09b;
 }
 .wrapper .button span {
   font-weight: 500;
