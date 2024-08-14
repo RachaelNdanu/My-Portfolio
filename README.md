@@ -19,3 +19,4 @@ portfolio for Rachael Nadanu
 - box-shadow in input boxes
 - email and phone redirects to mail app and phone app when clicked
 - other minor fixes and upgrades
+thanks
