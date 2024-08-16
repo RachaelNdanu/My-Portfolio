@@ -461,6 +461,15 @@ section .title::after {
   font-weight: 600;
   margin: 10px 0;
 }
+.card a {
+  color: white; /* Keep the text white */
+  text-decoration: none; /* Optional: Removes underline */
+}
+
+.card a:visited {
+  color: white; /* Ensures the text remains white even after the link is visited */
+}
+
 
 /* contact section styling */
 .contact .title::after {
