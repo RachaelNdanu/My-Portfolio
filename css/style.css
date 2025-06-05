@@ -401,10 +401,10 @@ section .title::after {
   width: 80%;
 }
 .skills .skills-content .right .linux::before {
-  width: 50%;
+  width: 70%;
 }
 .skills .skills-content .right .mysql::before {
-  width: 70%;
+  width: 80%;
 }
 
 /* Base styles for the projects section */
